@@ -5,11 +5,20 @@
 @import url("./_variables.css");
 /* Feel free to add as many of these imports as you need */
 
+@font-face {
+    font-family: 'Newsreader_24pt-Regular';
+    src: url('../../fonts/Newsreader_14pt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Newsreader_24pt-Regular', sans-serif;
   background-color: #ffffff; /* Set a background color for the entire page */
   color: #000000; /* Set a default text color for the entire page */
 }
+
+
+
