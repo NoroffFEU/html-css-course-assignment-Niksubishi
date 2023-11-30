@@ -12,6 +12,15 @@
     font-style: normal;
   }
 
+  @font-face {
+    font-family: 'Newsreader_24pt-Medium';
+    src: url('../../fonts/Newsreader_24pt-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  
+
 
   body {
     margin: 0;
@@ -54,7 +63,7 @@
   
   #header-logo {
     margin-left: 61px;
-    margin-top: 39px;
+    margin-top: 20px;
     margin-bottom: 0px;
     max-width: 100%; 
   }
@@ -63,12 +72,14 @@
     display: flex;
     align-items: center;
     margin-left: 0px; 
-    margin-right: 60px; 
-    margin-top: 10px; 
+    margin-right: 126px; 
+    margin-top: 50px; 
+    font-family: 'Newsreader_24pt-Medium', sans-serif;
+    font-size: 1em;
   }
   
   .nav-links a {
-    width: 96px;
+    width: auto;
     height: auto;
     margin-left: 99px; 
     text-align: center;
