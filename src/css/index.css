@@ -19,6 +19,13 @@
     font-style: normal;
   }
 
+  @font-face {
+    font-family: 'DMSerifDisplay-Regular';
+    src: url('../../fonts/DMSerifDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
   *, html {
     margin:0;
     padding:0;  
@@ -68,7 +75,7 @@
   
   #header-logo {
     margin-left: 61px;
-    margin-top: 20px;
+    margin-top: 5px;
     margin-bottom: 0px;
     max-width: 100%; 
   }
@@ -78,9 +85,9 @@
     align-items: center;
     margin-left: 0px; 
     margin-right: 126px; 
-    margin-top: 40px; 
-    font-family: 'Newsreader_24pt-Medium', sans-serif;
-    font-size: 1em;
+    margin-top: 5px; 
+    font-family: 'DMSerifDisplay-Regular', sans-serif;
+    font-size: 22px
   }
   
   .nav-links a {
@@ -99,5 +106,6 @@
   .video-row1 video {
     width: 100%;
     height: auto;
-    margin-top: 20px
+    margin-top: 0px
 }
+

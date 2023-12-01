@@ -1,29 +1,3 @@
-<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="40" height="40" fill="#242424"/>
-<g id="Homepage" filter="url(#filter0_d_0_1)">
-<g clip-path="url(#clip0_0_1)">
-<rect x="-1274" y="-112" width="1440" height="4600" fill="white"/>
-<g id="Header">
-<g id="&#240;&#159;&#166;&#134; icon &#34;shopping cart fill&#34;">
-<path id="Vector" d="M7.55339 1.40906C7.33236 0.586459 6.58349 0 5.71419 0H0V3.80955H4.07802L7.58276 26.9511L7.62679 27.1617C7.84781 27.9843 8.59665 28.5705 9.46598 28.5705H34.2935L34.5141 28.558C35.3115 28.4654 35.9758 27.8774 36.1529 27.078L39.954 9.93003L39.99 9.708C40.1034 8.60417 39.2366 7.61302 38.0946 7.61302L8.50651 7.61336L7.59742 1.6194L7.55339 1.40906ZM13.3331 40C11.2292 40 9.52364 38.2946 9.52364 36.1906C9.52364 34.0866 11.2292 32.3811 13.3331 32.3811C15.437 32.3811 17.1426 34.0866 17.1426 36.1906C17.1426 38.2946 15.437 40 13.3331 40ZM30.4756 40C28.3716 40 26.6663 38.2946 26.6663 36.1906C26.6663 34.0866 28.3716 32.3811 30.4756 32.3811C32.5796 32.3811 34.285 34.0866 34.285 36.1906C34.285 38.2946 32.5796 40 30.4756 40Z" fill="#001018"/>
-</g>
-</g>
-</g>
-</g>
-<defs>
-<filter id="filter0_d_0_1" x="-1280" y="-114" width="1452" height="4612" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feMorphology radius="2" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_0_1"/>
-<feOffset dy="4"/>
-<feGaussianBlur stdDeviation="2"/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
-</filter>
-<clipPath id="clip0_0_1">
-<rect x="-1274" y="-112" width="1440" height="4600" fill="white"/>
-</clipPath>
-</defs>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.66504 1.0568C5.49927 0.439844 4.93762 0 4.28564 0H0V2.85717H3.05851L5.68707 20.2133L5.72009 20.3713C5.88586 20.9882 6.44749 21.4279 7.09949 21.4279H25.7202L25.8856 21.4185C26.4836 21.349 26.9819 20.908 27.1147 20.3085L29.9655 7.44752L29.9925 7.281C30.0776 6.45313 29.4275 5.70977 28.571 5.70977L6.37988 5.71002L5.69806 1.21455L5.66504 1.0568ZM9.99981 30C8.42188 30 7.14273 28.7209 7.14273 27.1429C7.14273 25.5649 8.42188 24.2858 9.99981 24.2858C11.5777 24.2858 12.8569 25.5649 12.8569 27.1429C12.8569 28.7209 11.5777 30 9.99981 30ZM22.8567 30C21.2787 30 19.9997 28.7209 19.9997 27.1429C19.9997 25.5649 21.2787 24.2858 22.8567 24.2858C24.4347 24.2858 25.7137 25.5649 25.7137 27.1429C25.7137 28.7209 24.4347 30 22.8567 30Z" fill="#001018"/>
 </svg>
