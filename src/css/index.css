@@ -20,8 +20,8 @@
   }
 
   @font-face {
-    font-family: 'DMSerifDisplay-Regular';
-    src: url('../../fonts/DMSerifDisplay-Regular.ttf') format('truetype');
+    font-family: 'NotoSans_Condensed-Medium';
+    src: url('../../fonts/NotoSans_Condensed-Medium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
@@ -86,7 +86,7 @@
     margin-left: 0px; 
     margin-right: 126px; 
     margin-top: 5px; 
-    font-family: 'DMSerifDisplay-Regular', sans-serif;
+    font-family: 'NotoSans_Condensed-Medium', sans-serif;
     font-size: 22px
   }
   
@@ -107,5 +107,15 @@
     width: 100%;
     height: auto;
     margin-top: 0px
-}
+  }
 
+  .content-row2 {
+    display: flex;
+    align-items: center;
+  }
+    
+  #alpinecollection {
+    margin-left: 61px;
+    margin-top: 116px;
+    border-radius: 40px;
+  }
