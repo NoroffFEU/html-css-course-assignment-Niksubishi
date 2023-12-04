@@ -101,8 +101,6 @@
     color: #000;
   }
 
-  /*video*/ 
-
   .video-row1 video {
     width: 100%;
     height: auto;
@@ -118,4 +116,35 @@
     margin-left: 61px;
     margin-top: 116px;
     border-radius: 40px;
+    max-width: 100%;
   }
+
+  #alpinecollection2 {
+    margin-top: 186px;
+    margin-left: 149px;
+    font-size: 2.66em;
+    max-width: 340px; 
+    height: 265px; 
+    word-wrap: break-word;
+  }
+
+  h2 {
+    font-family: 'NotoSans_Condensed-Medium', sans-serif;
+    font-size: 20px; 
+    color: #8d8d8d;
+    max-width: 200px;
+    margin-top: 165px;
+    margin-left: 100px;
+  }
+
+  #rainyparagraph {
+    margin-top: 186px;
+    margin-left: 149px;
+    font-size: 2.66em;
+    max-width: 340px; 
+    height: 265px; 
+    word-wrap: break-word;
+
+  }
+
+
