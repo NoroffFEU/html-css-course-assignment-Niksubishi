@@ -60,27 +60,19 @@
 
   header {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .header-container {
-    display: flex;
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    padding: 0px; 
   }
   
   #header-logo {
     margin-left: 61px;
     margin-top: 5px;
-    margin-bottom: 0px;
+    margin-bottom: 8px;
     max-width: 100%; 
   }
   
-  .nav-links {
+  header nav {
     display: flex;
     align-items: center;
     margin-left: 0px; 
@@ -90,7 +82,7 @@
     font-size: 22px
   }
   
-  .nav-links a {
+  header nav a {
     width: auto;
     height: auto;
     margin-left: 99px; 
@@ -114,64 +106,86 @@
   .content-row2 {
     display: flex;
     align-items: center;
-    width: 80%;
+    width: 100%;
 }
 
   .content-row2 img {
     margin-left: 4%; 
     margin-top: 8%; 
     border-radius: 40px; 
-    width: 65%; 
+    width: 55%; 
 }
 
   .content-row2 p {
     margin-top: 8%; 
-    margin-left: 17%; 
+    margin-left: 10%; 
     font-size: 2.66em; 
-    width: 35%; 
+    width: 45%; 
     height: auto; 
     word-wrap: break-word;
 }
 
 /*content row 3*/
+  
+.content-row3 {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+  width: 100%;
+}
 
-  h1 {
-    font-family: 'NotoSans_Condensed-Medium', sans-serif;
-    font-size: 20px; 
-    color: #8d8d8d;
-    max-width: 200px;
-    margin-top: 165px;
-    margin-left: 100px;
-  }
+.content-row3 h1 {
+  font-family: 'NotoSans_Condensed-Medium', sans-serif;
+  font-size: 20px; 
+  color: #8d8d8d;
+  margin-top: 10%;
+  margin-left: 4%;
+}
 
-#rainyparagraph {
-    margin-top: 20px;
-    margin-left: 100px;
-    font-size: 2.08em;
-    max-width: 1240px; 
-    height: 265px; 
-  }
+.content-row3 p {
+  margin-top: 1%;
+  margin-left: 4%;
+  margin-right: 4%;
+  width: 92%;
+  font-size: 2.08em;
+  height: auto;
+  word-wrap: break-word;
+}
 
 /*content row 4*/
 
-  .content-row4 {
-   display:flex;
-   flex-wrap: wrap;
-  }
-
-  .row4header {
-    width: 100%; 
-    text-align: left;
-  }
-
-  .header h2 {
-    margin-bottom: 200px; 
+.content-row4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width:100%
 }
 
-   .content-row4 img {
-    margin-top: 20px;
+h2 {
+  font-family: 'Newsreader_24pt-Medium', sans-serif;
+  font-size: 1.2em;
+  margin-top: 8%;
+  margin-left: 4%;
+  color: #333; /* Adjust the color as needed */
+}
+
+.customerimages1 {
+  display: flex;
+  margin-left: 4%;
+  margin-right: 4%;
+  width: 89%;
+  gap: 1%; 
+}
+
+.customerimages1 img {
+  margin-top: 4%;
+  border-radius: 40px;
+  width: 25%; 
+  height: auto;
 }
  
+/*content row 5*/
+
 
 
 
