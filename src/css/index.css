@@ -310,7 +310,7 @@ h3, .content-row7 p {
 }
 
 h3 {
-  font-size: 2.5em;
+  font-size: 2em;
   margin-top: 1%;
   margin-bottom: 3%;
 }
@@ -386,18 +386,38 @@ footer {
 .top-row p {
   font-size: 2em;
   width: 20%;
+  margin-top: 2%;
   margin-left: 15%; 
   margin-right: 15%;
 }
 
 .bottom-row {
   display: flex;
+  width: 100%;
   flex-direction: row;
-  align-items:center
+  align-items:center;
   justify-content: space-between;
-  padding: 10px; 
 }
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  gap: 4%;
+}
+
 .bottom-row p {
+  display: flex;
+  text-align: center;
   font-size: 0.8em;
+}
+
+.payment-icons {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+
 }
 
