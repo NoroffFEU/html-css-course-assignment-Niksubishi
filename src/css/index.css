@@ -589,6 +589,7 @@ footer {
   box-sizing: border-box;  
 }
 
+
 .jacketpicbox {
   width: 100%;
   height: 80%;
@@ -599,15 +600,18 @@ footer {
 }
 
 .jackettextbox {
+  display: flex;
   background-color: #6c6c6c;
   border-radius: 20px;
   padding: 10%;
   width: 100%;
   text-align: left;
+  flex-direction: column;
+  
 }
 
 .jackettextbox p {
-  margin-top: 10px; /* Adjust the margin as needed for the desired gap */
+  margin-top: 10px; 
   display: inline-block;
 }
 
@@ -617,8 +621,24 @@ footer {
   display: inline-block;
 }
 
+.jackettextbox a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .jackettextbox h4 {
   margin-bottom: 10px; 
+}
+
+@media (max-width: 1000px) {
+  .jacketscontainer {
+    flex-direction: column;
+    align-items: center; 
+  }
+
+  .jacketbox {
+    width: 90%; 
+  }
 }
 
 /*JACKETPAGE*/
@@ -636,19 +656,48 @@ footer {
   display: flex;
   padding: 2%;
   width: 46%;
-  max-width: 700px;
+  max-width: 100%;
   max-height: auto;
+  object-fit:contain;
 }
 
 .jacketcontenttext {
   flex-direction: column;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   padding: 2%;
   width: 46%;
 }
 
 .jacketcontenttext h1 {
-  margin-bottom: 2%;
+  margin-bottom: 5%;
 }
 
+.jacketcontenttext p {
+  margin-bottom: 20px; 
+}
+
+.jacketcontenttext h2 {
+  text-align: start; 
+  margin-left: 0;
+}
+
+@media (max-width: 900px) {
+  .jacketcontent {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .jacketcontent img,
+  .jacketcontenttext {
+    width: 100%; 
+  }
+
+  .jacketcontenttext h1 {
+    margin-bottom: 3%; 
+  }
+
+  .jacketcontenttext p {
+    margin-bottom: 15px; 
+  }
+}
