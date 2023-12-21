@@ -144,7 +144,7 @@
 
   
 
-   /*main*/
+  /*main*/
 
   .video-row1 video {
     width: 100%;
@@ -152,7 +152,7 @@
     margin-top: 0px
   }
 
-/*content row 2*/
+  /*content row 2*/
 
   .content-row2 {
     display: flex;
@@ -599,10 +599,16 @@ footer {
 }
 
 .jackettextbox {
-  background-color: #588036;
+  background-color: #6c6c6c;
+  border-radius: 20px;
   padding: 10%;
   width: 100%;
   text-align: left;
+}
+
+.jackettextbox p {
+  margin-top: 10px; /* Adjust the margin as needed for the desired gap */
+  display: inline-block;
 }
 
 .jackettextbox h4,
@@ -611,4 +617,38 @@ footer {
   display: inline-block;
 }
 
+.jackettextbox h4 {
+  margin-bottom: 10px; 
+}
+
+/*JACKETPAGE*/
+
+.jacketcontent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  gap:4%;
+}
+
+.jacketcontent img {
+  display: flex;
+  padding: 2%;
+  width: 46%;
+  max-width: 700px;
+  max-height: auto;
+}
+
+.jacketcontenttext {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  padding: 2%;
+  width: 46%;
+}
+
+.jacketcontenttext h1 {
+  margin-bottom: 2%;
+}
 
