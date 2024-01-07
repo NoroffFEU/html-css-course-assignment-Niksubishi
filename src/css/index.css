@@ -630,6 +630,25 @@ footer {
   margin-bottom: 10px; 
 }
 
+.shopbottom {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 8%; 
+}
+
+.shopbottom img {
+    width: 50%; 
+}
+
+.shopbottom p { 
+  width: 50%; 
+  margin-left: 5%;
+  margin-right: 3%;
+  height: auto; 
+  word-wrap: break-word;
+}
+
 @media (max-width: 1000px) {
   .jacketscontainer {
     flex-direction: column;
@@ -638,6 +657,18 @@ footer {
 
   .jacketbox {
     width: 90%; 
+  }
+
+  .shopbottom {
+    flex-direction: column;
+  }
+
+  .shopbottom img {
+    margin-bottom: 4%;
+  }
+
+  .shopbottom p {
+    margin-bottom: 4%;
   }
 }
 
