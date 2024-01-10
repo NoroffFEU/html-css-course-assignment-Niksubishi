@@ -563,7 +563,7 @@ footer {
   display: flex;
   justify-content: flex-start;
   margin-top: 8%;
-  margin-left: 5%;
+  margin-left: 3%;
 }
 
 .jacketscontainer {
@@ -655,6 +655,11 @@ footer {
     align-items: center; 
   }
 
+  .shoptop h1 {
+    font-size: 1.3em;
+    margin-left: 2%;
+  }
+
   .jacketbox {
     width: 90%; 
   }
@@ -731,4 +736,25 @@ footer {
   .jacketcontenttext p {
     margin-bottom: 15px; 
   }
+}
+
+/*ABOUTUS*/
+
+.aboutusmain {
+  position: relative;
+}
+
+.aboutusmain img {
+  width: 100%;
+  display: block; /* Ensures the image behaves as a block element */
+}
+
+.aboutusmain h1,
+.aboutusmain p {
+  position: absolute;
+  top: 10%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: white; /* Change the text color as needed */
 }
