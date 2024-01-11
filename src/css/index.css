@@ -813,3 +813,53 @@ footer {
   }
 }
 
+/*CONTACTUS*/
+
+.contactuscontainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4%;
+}
+
+.contactusinfo {
+ margin-left: 4%;
+}
+
+.addresscontainer {
+  display: flex;
+  margin-right: 30%;
+}
+
+.contactusform {
+  max-width: 1000px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contactusform label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.contactusform input,
+.contactusform textarea {
+  width: 350px;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.contactusform button {
+  background-color: #6ab2ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block; 
+  margin-top: 10px;
+}
