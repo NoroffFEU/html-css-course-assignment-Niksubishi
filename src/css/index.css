@@ -26,6 +26,11 @@
     font-style: normal;
   }
 
+  @font-face {
+    font-family: 'Caveat-Regular';
+    src: url('../../fonts/Caveat-Regular.ttf') format('truetype')
+  }
+
   *, html {
     margin:0;
     padding:0;  
@@ -437,6 +442,7 @@ footer {
   width: 100%;
   max-width: 325px;
   min-width: 200px;
+  margin-right: 7%;
 }
 
 .separator {
@@ -451,8 +457,8 @@ footer {
   font-size: 2em;
   width: 20%;
   margin-top: 4%;
-  margin-left: 15%; 
-  margin-right: 15%;
+  margin-left: 17%; 
+  margin-right: 13%;
 }
 
 .bottom-row {
@@ -469,6 +475,7 @@ footer {
   justify-content: center;
   align-items: center;
   width: 50%;
+  margin-left: 2%;
 }
 
 .social-icons {
@@ -489,6 +496,7 @@ footer {
   display: flex;
   justify-content: center;
   width: 50%;
+  margin-right: 2%;
 }
 
 .payment-icons img {
@@ -519,10 +527,15 @@ footer {
     align-items: center;
     justify-content: center;
     height: 35%;
+    margin: 0;
   }
 
   .separator {
     display: none; 
+  }
+
+  .footerlogocontainer img {
+    margin: 0;
   }
 
   .top-row p {
@@ -539,6 +552,10 @@ footer {
     order: 1;
     width: 100%;
     margin-bottom: 8%;
+  }
+
+  .socialiconscontainer {
+    margin: 0;
   }
 
   .payment-icons {
@@ -740,21 +757,59 @@ footer {
 
 /*ABOUTUS*/
 
+.aboutusheader {
+  background-color: white;
+  width: 100%;
+  padding: 6%;
+  margin-left: 4%;
+}
+
 .aboutusmain {
   position: relative;
+  text-align: center;
+  color: white;
 }
 
 .aboutusmain img {
   width: 100%;
-  display: block; /* Ensures the image behaves as a block element */
+  min-width: 1000px;
+  display: block; 
 }
 
-.aboutusmain h1,
-.aboutusmain p {
-  position: absolute;
-  top: 10%; 
-  left: 50%; 
-  transform: translate(-50%, -50%);
-  z-index: 1;
-  color: white; /* Change the text color as needed */
+.aboutusmain  {
+  position: relative;
+  color: #000000;
 }
+
+.aboutustext {
+  position: absolute;
+  word-wrap: break-word;
+  max-height: 1000px;
+  max-width: 1300px;
+  top: 420px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  text-align: left; 
+}
+.aboutustext p {
+  margin-bottom: 20px; 
+}
+
+.aboutussig {
+  font-family: 'Caveat-Regular';
+  font-size: 2em;
+  color: white;
+  margin-top: 5%;
+}
+
+@media (max-width: 900px) {
+  .aboutustext p {
+    font-size: 0.75em;
+  }
+
+  .aboutusheader {
+    font-size: 0.5em;
+  }
+}
+
