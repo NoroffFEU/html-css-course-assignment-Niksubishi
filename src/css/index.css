@@ -997,6 +997,7 @@ footer {
 
 .cartcontainer {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 2%;
   margin-bottom: 2%;
@@ -1004,7 +1005,7 @@ footer {
 
 .cartbox {
   display: flex;
-  width: calc(50% - 7.5%);
+  width: 40%;
   margin-left: 7.5%;
   margin-top: 2%;
   box-sizing: border-box;
@@ -1049,6 +1050,68 @@ footer {
 
 .carttextbox h4 {
   margin-bottom: 10px;
+}
+
+.cartpayments { 
+  width: 30%;
+  margin-top: 5%;
+  margin-right: 5%;
+}
+
+.payment-container {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+  width: 25%; 
+  min-width: 230px;
+  text-align: left;
+  margin-top: 4%;
+  margin-left: auto; 
+  margin-right: 11.4%; 
+  border-radius: 12px;
+}
+
+.order-summary {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtotal, .shipping {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
 }
 
 
