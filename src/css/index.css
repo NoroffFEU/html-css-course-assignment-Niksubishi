@@ -1110,6 +1110,7 @@ form button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  width:100%;
 }
 
 form button:hover {
@@ -1117,6 +1118,43 @@ form button:hover {
 }
 
 
+@media (max-width: 1000px) {
+
+  .cartcontainer {
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+  }
+
+  .cartbox,
+  .cartpayments {
+    width: 80%; 
+    margin: 10px auto; 
+  }
+
+  .cartpayments img {
+    display: block; 
+    margin: 10px auto; 
+  }
+
+ .forms-container {
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+   }
+
+  .shipping-form,
+  .payment-form {
+    width: 70%; 
+    margin: 0; 
+  }
+
+  .shipping-form {
+    margin-bottom: 4%;
+  }
+}
 
 
 
