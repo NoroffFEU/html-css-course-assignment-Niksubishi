@@ -1086,6 +1086,10 @@ footer {
   margin-top: 1%;
 }
 
+.address-container {
+  text-align: center; 
+}
+
 .socialiconscontainer {
   display: flex;
   justify-content: center;
