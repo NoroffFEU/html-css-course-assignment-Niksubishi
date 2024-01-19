@@ -134,8 +134,8 @@
   }
 
   .mobilenavcontainer div a img {
-    max-width: 30px; 
-    max-height: 30px; 
+    max-width: 40px; 
+    max-height: 40px; 
   }
 
   @media (max-width: 1000px) {
