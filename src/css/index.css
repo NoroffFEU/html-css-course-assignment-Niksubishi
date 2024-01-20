@@ -710,7 +710,8 @@ h3 {
 
 .contactuscontainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 16%;
   margin-top: 4%;
 }
 
@@ -768,7 +769,6 @@ h3 {
 .addresscontainer {
   display: flex;
   flex-direction: column;
-  margin-right: 30%;
 }
 
 .addresscontainer h1 {
