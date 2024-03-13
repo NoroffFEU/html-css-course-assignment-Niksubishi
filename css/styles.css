@@ -48,7 +48,7 @@
   
   .black-bar {
     background-color: #3d3d3d;
-    height: 20px;
+    height: 28px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -58,7 +58,7 @@
   .black-bar p {
     color: #ffffff;
     margin: 0;
-    font-size: 0.83em;
+    font-size: 0.7em;
 }
 
    @media (max-width: 600px) {
@@ -468,7 +468,7 @@ h3 {
 }
 
 .green-button {
-  background-color: #4caf50; 
+  background-color: #000000; 
   color: #fff;
   padding: 10px 20px;
   margin-top: 3%;

@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="The home page to Rainy Days Jackets.">
   <title>Rainy Days - Pushing the comfort zone</title>
-  <link rel="stylesheet" href="src/css/index.css">
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <script src="script.js"></script>
 </head>
-
 
 <body>
 
@@ -18,22 +18,22 @@
   </div>
 
   <header>
-      <img src="assets/images/logos/headerlogo.png" alt="Logo for Rainy Days, a mountain and text" class="header-logo">
+      <img src="images/logos/headerlogo.png" alt="Logo for Rainy Days, a mountain and text" class="header-logo">
     <nav>
         <a href="shop.html">Shop</a>
         <a href="aboutus.html">About Us</a>
         <a href="contact.html">Contact</a>
-        <a href="cart.html"><img src="assets/images/icons/cart.svg" alt="Icon of cart symbol"></a>
+        <a href="cart.html"><img src="images/icons/cart.svg" alt="Icon of cart symbol"></a>
     </nav>
   </header>
 
   <div class="mobilenavcontainer">
     <div>
-       <a href="index.html"><img src="assets/images/icons/homeicon.png" alt="Icon of a house shap"></a>
-       <a href="shop.html"><img src="assets/images/icons/shopicon.png" alt="Icon of a tshirt shape for the shop"></a>
-       <a href="aboutus.html"><img src="assets/images/icons/abouticon.png" alt="Icon of a trolley symbol"></a>
-       <a href="contact.html"><img src="assets/images/icons/contacticon.png" alt="Icon of an envelope symbole for contact"></a>
-       <a href="cart.html"><img src="assets/images/icons/carticon.png" alt="Icon of cart symbol"></a>
+       <a href="index.html"><img src="images/icons/homeicon.png" alt="Icon of a house shap"></a>
+       <a href="shop.html"><img src="images/icons/shopicon.png" alt="Icon of a tshirt shape for the shop"></a>
+       <a href="aboutus.html"><img src="images/icons/abouticon.png" alt="Icon of a trolley symbol"></a>
+       <a href="contact.html"><img src="images/icons/contacticon.png" alt="Icon of an envelope symbole for contact"></a>
+       <a href="cart.html"><img src="images/icons/carticon.png" alt="Icon of cart symbol"></a>
     </div>
   </div>
 
@@ -42,14 +42,16 @@
   <main>
     
     <div class="video-row1">
-      <video autoplay loop muted>
-        <source src="assets/images/videos/rainydayshomepage.mp4" type="video/mp4">
+      <video autoplay loop muted playsinline>
+        <source src="images/videos/rainydayshomepage.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
     </div>
+
+    <div id="product-listing"></div>
     
     <div class="content-row2">
-      <img src="assets/images/generalphotos/homepagevideoreplace.jpg" alt="Picture of man climbing on snowy mountains with the Rainy Days logo on top">
+      <img src="images/generalphotos/homepagevideoreplace.jpg" alt="Picture of man climbing on snowy mountains with the Rainy Days logo on top">
       <p>Explore The Alpine Collection...</p>
     </div>
     
@@ -61,26 +63,26 @@
     <div class="content-row4">
       <h2>Your photos, shared...</h2>
       <div class="customerimages1">
-          <img src="assets/images/generalphotos/Customer-1/hike-5796976_1920.jpg" alt="Hiking Photo">
-          <img src="assets/images/generalphotos/Customer-1/man-731900.jpg" alt="Man Photo">
-          <img src="assets/images/generalphotos/Customer-1/hiker-918473.jpg" alt="Hiker Photo">
-          <img src="assets/images/generalphotos/Customer-1/couple-2179256.jpg" alt="Couple Photo">
+          <img src="images/generalphotos/Customer-1/hike-5796976_1920.jpg" alt="Hiking Photo">
+          <img src="images/generalphotos/Customer-1/man-731900.jpg" alt="Man Photo">
+          <img src="images/generalphotos/Customer-1/hiker-918473.jpg" alt="Hiker Photo">
+          <img src="images/generalphotos/Customer-1/couple-2179256.jpg" alt="Couple Photo">
       </div>
   </div>
 
   <div class="content-row5">
-    <a href="shop.html"><img src="assets/images/generalphotos/shopwomen.jpg" alt="Woman sitting with her back to the camera wearing a backpack, walking through the woods"></a>
-    <a href="shop.html"><img src="assets/images/generalphotos/shopmens.jpg" alt="Man sitting with his back to the camera wearing a yellow jacket, with a nice blurred view behind him"></a>
+    <a href="shop.html"><img src="images/generalphotos/shopwomen.jpg" alt="Woman sitting with her back to the camera wearing a backpack, walking through the woods"></a>
+    <a href="shop.html"><img src="images/generalphotos/shopmens.jpg" alt="Man sitting with his back to the camera wearing a yellow jacket, with a nice blurred view behind him"></a>
   </div>
 
   <div class="content-row6">
-          <img src="assets/images/generalphotos/recycle.webp" alt="Green Recycle Sign" class="recyclesign">
-          <img src="assets/images/generalphotos/couriergreen.jpg" alt="Delivery driver carrying package in front of his van" class="courierpic">
+          <img src="images/generalphotos/recycle.webp" alt="Green Recycle Sign" class="recyclesign">
+          <img src="images/generalphotos/couriergreen.jpg" alt="Delivery driver carrying package in front of his van" class="courierpic">
   </div>
 
   
   <div class="content-row7">
-    <h3>Join the club...</h3>
+    <h3>JOIN THE CLUB</h3>
     <p>As a valued member of our customer club, you'll enjoy exclusive personalized offers, early access to sales and promotions, and a wealth of tips and inspiration for your upcoming adventures. Within your account, you'll conveniently find a comprehensive overview of all your orders and receipts.</p>
     <a href="#" class="green-button">Join</a>
   </div>
@@ -91,7 +93,7 @@
 
   <footer>
     <div class="top-row">
-      <div class="footerlogocontainer"> <img src="assets/images/logos/footerlogo.png" alt="Rainy Days logo in white"> </div>
+      <div class="footerlogocontainer"> <img src="images/logos/footerlogo.png" alt="Rainy Days logo in white"> </div>
       <div class="separator">&nbsp;</div>
       <p>Pushing the comfort zone</p>
     </div>
@@ -99,10 +101,10 @@
     <div class="bottom-row">
       <div class="socialiconscontainer">
         <div class="social-icons">
-        <img class="social-icon" src="assets/images/icons/insta.svg" alt="Instagram logo a camera-looking symbol">
-        <img class="social-icon" src="assets/images/icons/facebook.svg" alt="Facebook F logo">
-        <img class="social-icon" src="assets/images/icons/youtube.svg" alt="YouTube logo a square with a play symbol">
-        <img class="social-icon" src="assets/images/icons/x.svg" alt="X logo a square with a stylized X inside">
+        <img class="social-icon" src="images/icons/insta.svg" alt="Instagram logo a camera-looking symbol">
+        <img class="social-icon" src="images/icons/facebook.svg" alt="Facebook F logo">
+        <img class="social-icon" src="images/icons/youtube.svg" alt="YouTube logo a square with a play symbol">
+        <img class="social-icon" src="images/icons/x.svg" alt="X logo a square with a stylized X inside">
         </div>
       </div>
       <div class="address-container">
@@ -111,7 +113,7 @@
       <p>Tel: 45345050</p>
       <p>Company number: 345 283 494</p>
      </div>
-      <div class="payment-icons"> <img src="assets/images/icons/payments.png" alt="logos for popular payment companies such as visa"> </div>
+      <div class="payment-icons"> <img src="images/icons/payments.png" alt="logos for popular payment companies such as visa"> </div>
     </div>
     
     <div class="bottomlinks">
