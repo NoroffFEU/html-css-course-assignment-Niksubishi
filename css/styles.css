@@ -1,34 +1,25 @@
-/* Use import to split up your CSS into manageable chunks */
 @import url("./reset.css");
-/* Files that are only needed to be imported are called partials */
-/* These are marked with an underscore: */
+
 @import url("./variables.css");
-/* Feel free to add as many of these imports as you need */
 
-@font-face {
-    font-family: 'Newsreader_24pt-Regular';
-    src: url('../../fonts/Newsreader_24pt-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Newsreader_24pt-Medium';
-    src: url('../../fonts/Newsreader_24pt-Medium.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'NotoSans_Condensed-Medium';
-    src: url('../../fonts/NotoSans_Condensed-Medium.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
 
   @font-face {
     font-family: 'Caveat-Regular';
     src: url('../../fonts/Caveat-Regular.ttf') format('truetype')
+  }
+
+  @font-face {
+    font-family: 'Lato-Regular';
+    src: url('../../fonts/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Lato-Light';
+    src: url('../../fonts/Lato-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
   }
 
   *, html {
@@ -40,15 +31,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Newsreader_24pt-Regular', sans-serif;
+    font-family: 'Lato-Light', sans-serif;
     font-size: 24px;
     background-color: #ffffff;
     color: #000000;
   }
   
   .black-bar {
-    background-color: #3d3d3d;
-    height: 28px;
+    background-color: #272727;
+    height: 24px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -58,7 +49,8 @@
   .black-bar p {
     color: #ffffff;
     margin: 0;
-    font-size: 0.7em;
+    font-size: 0.6em;
+    font-family: 'Lato-Light', sans-serif;
 }
 
    @media (max-width: 600px) {
@@ -95,7 +87,7 @@
     width: 60%;
     align-items: center;
     justify-content: flex-end;
-    font-family: 'NotoSans_Condensed-Medium', sans-serif;
+    font-family: 'Lato-Light', sans-serif;
     font-size: 0.9em;
   }
   
@@ -260,7 +252,9 @@
 }
 
   .content-row2 p { 
+    font-family:'Lato-Regular';
     margin-left: 10%; 
+    margin-right: 5%;
     font-size: 2.66em; 
     width: 45%; 
     height: auto; 
@@ -300,8 +294,7 @@
 }
 
 .content-row3 h1 {
-  font-family: 'NotoSans_Condensed-Medium', sans-serif;
-  font-size: 1em; 
+  font-size: 0.8em; 
   color: #8d8d8d;
   margin-top: 10%;
   margin-left: 4%;
@@ -737,7 +730,7 @@ h3 {
 }
 
 .aboutustext {
-  background-image: url('../../assets/images/generalphotos/backgroundaboutus.webp'); 
+  background-image: url('../../images/generalphotos/backgroundaboutus.webp'); 
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
@@ -1203,13 +1196,14 @@ footer {
   text-align: center;
   justify-content: center;
   margin-top: 4%;
+  margin-bottom: 1%;
   width:100%;
 }
 
 .bottomlinks a {
   text-decoration: none;
   color: #000;
-  font-size: 0.8em;
+  font-size: 0.6em;
 }
 
 @media screen and (max-width: 900px) {
