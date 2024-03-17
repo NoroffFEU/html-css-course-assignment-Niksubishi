@@ -295,6 +295,7 @@
 
 .content-row3 h1 {
   font-size: 0.8em; 
+  font-family:'Lato-Regular';
   color: #8d8d8d;
   margin-top: 10%;
   margin-left: 4%;
@@ -346,7 +347,7 @@ h2 {
   justify-content: center;
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 4%;
+  margin-top: 2%;
   width: 90%;
   gap: 1%;
 }
